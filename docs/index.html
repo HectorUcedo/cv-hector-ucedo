@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CV - Héctor Ucedo</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  <title>CV - Héctor Ucedo</title>
+  <link rel="shortcut icon" href="assets/img/icon-cv.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
-.ovalado {
-  border-radius: 50%;
-}
+  .ovalado {
+    border-radius: 50%;
+  }
 
-.btn-wsp{
-    position:fixed;
-    width:60px;
-    height:60px;
-    line-height: 63px;
-    bottom:25px;
-    right:25px;
-    background:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:35px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index:100;
-    transition: all 300ms ease;
-}
-.btn-wsp:hover{
-    background: #20ba5a;
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-    .btn-wsp{
-        width:63px;
-        height:63px;
-        line-height: 66px;
-	}
-}
+  .btn-wsp{
+      position:fixed;
+      width:60px;
+      height:60px;
+      line-height: 63px;
+      bottom:25px;
+      right:25px;
+      background:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:35px;
+      box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+      z-index:100;
+      transition: all 300ms ease;
+  }
+  .btn-wsp:hover{
+      background: #20ba5a;
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+      .btn-wsp{
+          width:63px;
+          height:63px;
+          line-height: 66px;
+    }
+  }
 
 
-</style>
+  </style>
 
-<link rel="stylesheet" href="assets/css/estilos.css">
-<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
 <body class="w3-light-grey">
@@ -84,12 +86,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <hr>
           <p>Soy un analista desarrollador de sistemas cuya pasión es el Front-End, entusiasta de la fotografía y estoy abierto a aprender. Con más de 8 años de experiencia en la industria financiera. Mi trabajo se centra en análisis, diseño y desarrollo de sistemas informáticos.</p>
           <hr>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Lic. en Ciencias informáticas</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Del Pilar c/ Mompox, San Lorenzo, Paraguay</p>
-          <a href="mailto:hector.ucedo@gmail.com" target="_blank"><p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>hector.ucedo@gmail.com</p></a>
-          <a href="https://www.linkedin.com/in/hector-ucedo-02276b92/" target="_blank"><p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>LinkedIn: Hector Ucedo</p></a>
-          <a href="https://wa.me/595981280666" target="_blank"><p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0981280666</p></a>
-          <a href="https://github.com/HectorUcedo" target="_blank"><p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>GitHub</p></a>
+
+        
+          <button class="w3-tag w3-teal w3-round" id="readMore_btn"> <i class="fa fa-eye"> Mostrar datos de contacto</i></button>
+        
+
+          <span id="hideText" class="hideText">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Lic. en Ciencias informáticas</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Del Pilar c/ Mompox, San Lorenzo, Paraguay</p>
+            <p><a href="mailto:hector.ucedo@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>hector.ucedo@gmail.com</a></p>
+            <a href="https://www.linkedin.com/in/hector-ucedo-02276b92/" target="_blank"><p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>LinkedIn: Hector Ucedo</p></a>
+            <a href="https://wa.me/595981280666" target="_blank"><p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0981280666</p></a>
+            <a href="https://github.com/HectorUcedo" target="_blank"><p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>GitHub</p></a>
+          
+
           <hr>
 
           <!-- Otros Detalles -->
@@ -141,9 +151,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
            
            <hr>
 
+          
            <!-- Referencia Laboral -->
  
-           <p class="w3-large"><b><i class="fa fa-id-card-o fa-fw w3-margin-right w3-text-teal"></i>Referencia Laboral</b></p>
+           <p class="w3-large" id="hideText" class="hideText"><b><i class="fa fa-id-card-o fa-fw w3-margin-right w3-text-teal"></i>Referencia Laboral</b></p>
            
            <ul>
             <b><li>Walter Maidana</b>
@@ -163,6 +174,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </ul>
            
            
+          <!-- finaliza el botón de Mostrar datos... -->
+        </span>
+
            <br>
          </div>
        </div><br>
@@ -366,6 +380,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <a href="https://www.linkedin.com/in/hector-ucedo-02276b92/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   
 </footer>
+
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
